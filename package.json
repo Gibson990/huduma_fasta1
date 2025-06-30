@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "pg": "^8.16.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/pg": "^8.15.4"
+  }
+}

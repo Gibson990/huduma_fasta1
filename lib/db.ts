@@ -1,0 +1,1 @@
+connectionString: 'postgresql://postgres:12345@localhost:5432/huduma_db' 
