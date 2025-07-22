@@ -117,3 +117,18 @@ CREATE TABLE IF NOT EXISTS reviews (
     comment TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+<<<<<<< HEAD
+=======
+
+CREATE TABLE IF NOT EXISTS contact_messages (
+    id SERIAL PRIMARY KEY,
+    provider_id INTEGER REFERENCES service_providers(id),
+    customer_name VARCHAR(100) NOT NULL,
+    customer_email VARCHAR(100) NOT NULL,
+    customer_phone VARCHAR(20),
+    subject VARCHAR(200) NOT NULL,
+    message TEXT NOT NULL,
+    status VARCHAR(20) DEFAULT 'unread',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+>>>>>>> provider-dashboard-enhancement
