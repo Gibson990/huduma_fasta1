@@ -1,0 +1,3 @@
+ALTER TABLE users
+  ADD COLUMN IF NOT EXISTS nida_number VARCHAR(50),
+  ADD COLUMN IF NOT EXISTS nida_card_image VARCHAR(255); 
